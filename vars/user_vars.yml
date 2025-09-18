@@ -1,10 +1,21 @@
 # user stuff
-OCP_HUB_API_URL: ""
-OCP_HUB_CLUSTER_USER: ""
-OCP_HUB_CLUSTER_PASSWORD: ""
+OCP_HUB_API_URL: "https://api.qe6-vmware-ibm.install.dev09.red-chesterfield.com:6443"
+OCP_HUB_CLUSTER_USER: "kubeadmin"
+OCP_HUB_CLUSTER_PASSWORD: "hoeSn-etHpG-SijcS-T3JiW"
 MCE_NAMESPACE: "multiclusterengine"
 AWS_REGION: ""
 AWS_ACCESS_KEY_ID: ""
 AWS_SECRET_ACCESS_KEY: ""
 OCM_CLIENT_ID: ""
 OCM_CLIENT_SECRET: ""
+
+
+#  Daily Hub deployment on qe6-vmware-ibm has succeeded!
+#  OpenShift v4.19.11 installed on qe6-vmware-ibm
+# Console: https://console-openshift-console.apps.qe6-vmware-ibm.install.dev09.red-chesterfield.com
+# API: https://api.qe6-vmware-ibm.install.dev09.red-chesterfield.com:6443
+# ACM Version: latest-2.15
+# MCE Version: latest-2.10
+# kubeadmin password: hoeSn-etHpG-SijcS-T3JiW
+# platform: vSphere fips_enabled: false
+# Build URL: https://jenkins-csb-rhacm-tests.dno.corp.redhat.com/job/CI-Jobs/job/deploy-qe6-vmware-ibm/684/
